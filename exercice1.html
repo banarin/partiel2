@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercice1.css">
+    <title>exercice1</title>
+</head>
+<body>
+    <nav class="top">
+        <h1 class="title">Formulaire d'inscription </h1>
+    </nav>
+    <p class="para">
+        Les champs suivis d'un astérisque (*) sont obligatoire
+    </p>
+    <center>
+        <fieldset class="table1">
+            <legend>Civilité</legend>
+            <label for="">Nom: *</label>
+            <input type="text" class="input">
+            <br>
+            <label for="">Prenom: *</label>
+            <input type="text" class="input1">
+            <br>
+            <label for="">Date de naissance: </label>
+            <input type="date" class="input2">
+            <label for="" class="select-text">sexe: * </label>
+            <select name="" id="" class="select">
+                <option value="">--votre genre--</option>
+                <option value="">Masculin</option>
+                <option value="">Feminin</option>
+            </select>
+            <br>
+            <label for="">Nationalité: *</label>
+            <input type="text" class="input4">
+        </fieldset>
+        <fieldset class="table1">
+            <legend>Cursus scolaire</legend>
+            <label for="" class="select-text">Série du BAC: </label>
+            <select name="" id="">
+                <option value="">--choisire votre série--</option>
+                <option value="">C</option>
+                <option value="">D</option>
+                <option value="">E</option>
+                <option value="">A4</option>
+                <option value="">G1</option>
+                <option value="">G2</option>
+                <option value="">G3</option>
+                <option value="">G4</option>
+                <option value="">F1</option>
+                <option value="">F2</option>
+                <option value="">F3</option>
+                <option value="">F4</option>
+            </select>
+            <br>
+            <label for="" class="select-text2">Filière: </label>
+            <select name="" id="" style="margin-top: 10px; margin-bottom: 10px;">
+                <option value="">--choisire votre filière--</option>
+                <option value="">GLSI</option>
+                <option value="">ASR</option>
+                <option value="">MTWI</option>
+            </select>
+        </fieldset>
+        <fieldset class="table1">
+            <legend>Creation de compte</legend>
+            <label for="">Pseudo: *</label>
+            <input type="text" class="input5">
+            <br>
+            <label for="">mot de passe: *</label>
+            <input type="text" id="mdp" class="input6">
+            <br>
+            <label for="">Confirmer le mot de passe: *</label>
+            <input type="text" id="mdp2" class="input7">
+        </fieldset>
+    </center>
+    <button id="btn" class="btn">Envoyé</button>
+    <script src="exercice2.js"></script>
+</body>
+</html>

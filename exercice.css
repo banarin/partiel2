@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ececeb;
+}
+.top{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    padding-top: 20px;
+}
+.title{
+    text-align: center;
+    color: white;
+}
+.para{
+    margin-left: 380px;
+    margin-top: 20px;
+}
+.table1{
+    width: 600px;
+}
+.input{
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 168px;
+    height: 25px;
+    border-radius: 5px;
+}
+.input1{
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 150px;
+    height: 25px;
+    border-radius: 5px;
+}
+.input2{
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
+.input4{
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 128px;
+    margin-bottom: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+.input5{
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 150px;
+    height: 25px;
+    border-radius: 5px;
+}
+.input6{
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 110px;
+    height: 25px;
+    border-radius: 5px;
+}
+.input7{
+    margin-top: 10px;
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+.select{
+    margin-top: 10px;
+    width: 200px;
+    margin-right: px;
+}
+.select1{
+    margin-top: 10px;
+    width: 180px;
+    margin-right: 10px;
+}
+.select2{
+    margin-top: 10px;
+    width: 200px;
+    margin-right: 50px;
+}
+.select-text{
+    margin-right: 325px;
+}
+.select-text2{
+    margin-right: 370px;
+}
+.btn{
+    margin-left: 380px;
+    margin-top: 10px;
+    background-color: gray;
+    width: 100px;
+    border-radius: 5px;
+}
+.btn1{
+    background-color: #e65c00;
+}
